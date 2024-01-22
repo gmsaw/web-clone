@@ -1,0 +1,257 @@
+html, *{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    min-height: 100vw;
+}
+
+.background-clip{
+    min-width: 100%;
+    background-color: #abb8c325; 
+}
+
+.nav-upper{
+    padding-top: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-container{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-upper .logo{
+    width: 30%;
+}
+
+.nav-upper .logo svg.logo{
+    width: 85px;
+    filter: invert(50%) sepia(53%) saturate(598%) hue-rotate(160deg) brightness(95%) contrast(92%);
+}
+
+.nav-upper .menu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    font-weight: 550;
+    color: #333333;
+}
+
+.menu .container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    padding-left: 40px;
+}
+
+.up-menu{
+    display: flex;
+    justify-content: center;
+}
+
+.up-menu a{
+    text-decoration: none!important;
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.up-menu .button{
+    background-color: #3897D3;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.up-menu .button:hover{
+    background-color: #1677BE;
+}
+
+.up-menu span.button{
+    color: white;
+}
+
+.headline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20vw;
+}
+.headline-text{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.headline h1{
+    color: #333333;
+    font-weight: 550;
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+
+.headline p{
+    margin-bottom: 24px;
+}
+
+.headline-text .book-checkup{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.book-cover{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.book-cover img{
+    width: 350px;
+    transition: transform 330ms ease-in-out;
+}
+
+.book-cover img:hover{
+    transform: scale(1.025);
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.content-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content .skils{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 40px;
+    height: 360px;
+}
+
+.content-container .title{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+hr{
+    margin-top: 20px;
+    width: 70px;
+    border: 2px solid #1677BE;
+}
+
+.skils-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    height: 90%;
+    transition: all 200ms ease-out;
+}
+
+.skils-2, .skils-4{
+    margin-top: 30px;
+}
+
+.skil-img, .skils-title, .skils-desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #333333;
+}
+
+.skils-container .skil-img{
+    width: 100%;
+    height: 30%;
+    font-size: 2.81rem;
+}
+
+.skils-title{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.skils-desc{
+    font-weight: 400;
+    font-size: 20px;
+    width: 90%;
+}
+
+.skils-container:hover {
+    transform: translate(0px, -5px)
+}
+
+#about{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.about-container{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.profile-container{
+    width: 80vh;
+    height: 100%;
+}
+
+.profile-container img{
+    height: 85%;
+    margin-top: 40px;
+}
+
+.about-desc{
+    width: 50%;
+}
+
+.about-desc p{
+    font-weight: 400;
+    margin-top: 10px;
+    color: #333333;
+    line-height: 1.25;
+}
+
+.footer{
+    width: 100%;
+    height: 120px;
+    background-color: black;
+}
